@@ -2,15 +2,17 @@
 A stack based maze solver.
 
 ## Compilation
-make
+`$ make`
 
 ## Usage
-./bin/A1 docs/mazes/maze.txt
-./bin/testStackA1
-./bin/testMazeSolverA1
+```
+$ ./bin/A1 docs/mazes/maze.txt
+$ ./bin/testStackA1
+$ ./bin/testMazeSolverA1
+```
 
 ## Testing
-See testing documentation in docs/
+See testing documentation in `docs/`
 
 ## Sample output
 ```
@@ -39,9 +41,9 @@ $ ./bin/A1 docs/mazes/maze.txt
 ```
 
 ## Known limitations
-- level file must be correctly formatted according to assignment specifications
-- program will exit with limited information when input is invalid
-- stack only stores struct Coordinate
+- Level file must be correctly formatted
+- Program will exit with limited information when input is invalid
+- Stack only stores struct Coordinate
 
 ## References
 - http://courses.cs.washington.edu/courses/cse373/02wi/slides/BinSortEtc/sld023.htm
